@@ -11,7 +11,7 @@ package com.mycompany.testdemo;
  */
 public class Prime {
 
-   public boolean isPrimeNumber(int input) {
+   public static boolean isPrimeNumber(int input) {
       if (input < 2) {
          return false;
       }
@@ -21,5 +21,10 @@ public class Prime {
          }
       }
       return true;
+   }
+   
+   public static void main(String[] args) {
+      boolean check = isPrimeNumber(5);
+      System.out.println(check ? "hihi" : "Sai zoi");
    }
 }
