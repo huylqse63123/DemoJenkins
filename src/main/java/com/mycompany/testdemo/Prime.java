@@ -26,5 +26,6 @@ public class Prime {
    public static void main(String[] args) {
       boolean check = isPrimeNumber(5);
       System.out.println(check ? "hihi" : "Sai zoi");
+      System.out.println(isPrimeNumber(6) ? "HIHI" : "Lai sai tiep");
    }
 }
